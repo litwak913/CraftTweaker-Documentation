@@ -28,14 +28,13 @@ mods.ltt.LootTable.removeEntry("minecraft:chests/simple_dungeon", "main", "minec
 mods.ltt.LootTable.removeItem("minecraft:chests/simple_dungeon", "main", "minecraft:golden_apple");
 ```
 
-删除所有某个 mod 添加的战利品条目。
+删除所有某 mod 添加的战利品条目。
 ```java
 // mods.ltt.LootTable.removeModEntry(String modid);
 mods.ltt.LootTable.removeModEntry("modid");
 ```
 
 删除所有包含某 mod 添加物品的战利品条目。
-Removes all entries containing items added by the mod.
 ```java
 // mods.ltt.LootTable.removeModItem(String modid);
 mods.ltt.LootTable.removeModItem("modid");
